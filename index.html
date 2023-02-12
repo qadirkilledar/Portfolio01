@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="keywords" content="HTML, CSS, JavaScript, Git, KUTE.js, Partiles.js, Figma, Photoshop">
+  <meta name="description" content="Frontend Developer">
+  <meta name="author" content="Hatem Soliman">
+  <meta http-equiv="refresh" content="600">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta content='width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;' name='viewport' />
+  <meta name="viewport" content="width=device-width" />
+
+  <link rel="shortcut icon" type="x-icon" href="./Assets/small-logo.svg">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+  <script defer src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/kute.js@2.1.2/dist/kute.min.js"></script>
+  <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+
+  <title>Qadir Killedar | Redefining the Web Experience</title>
+</head>
+<body>
+  <section id="home-section">
+    <div id="particles-js"></div>
+    <!-- <img id="home-bg" src="./Assets/polygon-scatter.svg" alt=""> -->
+    <div class="container">
+      <ul id="progress__bar">
+        <li>
+          <a title="Home" href="#home-section">
+            <i class="far fa-circle side-nav-bar circle1"></i>
+          </a>
+        </li>
+        <li>
+          <a title="About" href="#about-section">
+            <i class="far fa-circle side-nav-bar circle2"></i>
+          </a>
+        </li>
+        <li>
+          <a title="Projects" href="#projects-section">
+            <i class="far fa-circle side-nav-bar circle3"></i>
+          </a>
+        </li>
+        <li>
+          <a title="Contact" href="#contact-section">
+            <i class="far fa-circle side-nav-bar circle4"></i>
+          </a>
+        </li>
+      </ul>
+      <div class="row">
+        <nav>
+          
+          <ul class="nav__link--list">
+            <li class="nav__link">
+              <a href="#" id="details-anchor" class="
+                nav__link--anchor
+                link__hover-effect
+              ">Details</a>
+            </li>
+            <div id="portfolio__modal" class="portfolio__modal">
+              <h4 class="portfolio__modal--title">Personal Portfolio</h4>
+              <h5 class="portfolio__modal--sub-title">HTML, CSS, JavaScript, Git,<br> BlockChain, NFT & Solidity</h5>
+              <hr>
+              <p class="portfolio__modal--para">
+                while(alive) {<br>
+                  eat();<br>
+                  sleep();<br>
+                  code();<br>
+                }
+              </p>   
+              <a href="#" target="_blank" class="portfolio__modal--link">
+                <i class="fab fa-github"></i>
+              </a>
+            </div>
+            <li class="nav__link">
+              <a href="#about-section" class="
+                nav__link--anchor
+                link__hover-effect
+              ">About</a>
+            </li>
+            <li class="nav__link">
+              <a href="#projects-section" class="
+                nav__link--anchor
+                link__hover-effect
+              ">Projects</a>
+            </li>
+            <li class="nav__link nav__link--special">
+              <a href="#contact-section" class="
+                nav__link--anchor nav__link--anchor--special
+              ">Contact</a>
+            </li>
+          </ul>
+          <div class="nav__container--mobile">
+            <button class="btn__menu" onclick="openMenu()">
+              <i class="fas fa-bars"></i>
+            </button>
+            <div class="menu__backdrop">
+              <button class="btn__menu btn__menu--close" onclick="closeMenu()">
+                <i class="fas fa-times"></i>
+              </button>
+              <ul class="menu__links">
+                <li class="menu__list">
+                  <a href="#home-section" class="menu__link" onclick="closeMenu()">HOME</a>
+                </li>
+                <li class="menu__list">
+                  <a href="#about-section" class="menu__link" onclick="closeMenu()">ABOUT</a>
+                </li>
+                <li class="menu__list">
+                  <a href="#projects-section" class="menu__link" onclick="closeMenu()">PROJECTS</a>
+                </li>
+                <li class="menu__list">
+                  <a href="#contact-section" class="menu__link" onclick="closeMenu()">CONTACT</a>
+                </li>
+                <div class="portfolio__modal--mobile">
+                  <h4 class="portfolio__modal--title">Personal Portfolio</h4>
+                  <h5 class="portfolio__modal--sub-title portfolio__modal--sub-title--mobile">HTML, CSS, JavaScript, Git,<br> Kute.JS, Particles.JS, Figma & Photoshop</h5>
+                  <a href="#" target="_blank" class="portfolio__modal--link--mobile">
+                    <i class="fab fa-github"></i>
+                  </a>
+                </div>
+              </ul>
+            </div>
+          </div> 
+        </nav>
+
+        <header>
+          <div class="header__content">
+            <h1 class="header__title text">Redefining the web <span class="blue text-reverse">experience</span></h1>
+            <a class="header__btn" href="#about-section">ABOUT ME</a>
+          </div>
+          <figure class="header__img--wrapper">
+            <img id="header__img" src="./Assets/main01.png" alt="The Unmasked Identity">
+          </figure>
+        </header>
+      </div>
+      <ul class="imp__link--list">
+        <li class="imp__link--wrapper">
+          <a href="https://www.linkedin.com/in/qadirkilledar17" target="_blank">
+            <i class="fab fa-linkedin-in imp__link--anchor div1"></i>
+          </a>
+        </li>
+        <li class="imp__link--wrapper">
+          <a href="https://github.com/qadirkilledar" target="_blank">
+            <i class="fab fa-github imp__link--anchor div2"></i>
+          </a>
+        </li>
+        
+        <li class="imp__link--wrapper">
+          <a href="./Assets/QADIR.pdf" target="_blank">
+            <i class="fas fa-file-pdf imp__link--anchor div4"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <div class="wave-wrapper">
+    <img class="waves" src="./Assets/layered-waves-2-success.svg" alt="waves">
+  </div>
+
+  <section id="about-section" class="white-sections">
+    <div class="container">
+      <div class="row">
+        <div class="myself">
+          <h2 class="myself__title">I'm <span class="blue">Qadir</span>&nbsp;<span class="hand-wave">👋</span></h2>
+          <p class="myself__para">
+            I'm an <span id="age">19</span>-year-old Indian <span class="blue">Blockchain Developer</span> with a strong passion for building responsive and performant web3 applications with great user experiences that positively impact the world. As a <span class="blue">Crypto Enthusiast</span> and <span class="blue">Blockchain Explorer</span> I have acquired the skills and knowledge necessary to make your project a success. I enjoy every step of the design process, from discussion and collaboration.
+          </p>
+          <figure class="myself__img--wrapper">
+            <img src="./Assets/about me.svg" alt="About Me" id="myself__img">
+          </figure>
+        </div>
+        <div class="tech-stack">
+          <h2 class="stack__title">This is my <span class="blue">technology stack</span></h2>
+          <div class="language__list">
+            <div class="language">
+              <figure class="language__img--wrapper">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/HTML5_Badge.svg/240px-HTML5_Badge.svg.png" alt="HTML Logo" class="language__img">
+              </figure>
+              <span class="language__name">HTML</span>
+            </div>
+            <div class="language">
+              <figure class="language__img--wrapper">
+                <img src="https://cdn.iconscout.com/icon/free/png-256/css-131-722685.png" alt="CSS Logo" class="language__img">
+              </figure>
+              <span class="language__name">CSS</span>
+            </div>
+            <div class="language">
+              <figure class="language__img--wrapper">
+                <img src="https://cdn.iconscout.com/icon/free/png-256/javascript-1-225993.png" alt="JavaScript Logo" class="language__img">
+              </figure>
+              <span class="language__name">JavaScript</span>
+            </div>
+            <div class="language">
+              <figure class="language__img--wrapper">
+                <img src="https://cdn.freebiesupply.com/logos/large/2x/git-icon-logo-png-transparent.png" alt="Git Logo" class="language__img">
+              </figure>
+              <span class="language__name">Git</span>
+            </div>
+           
+            <div class="language">
+              <figure class="language__img--wrapper">
+                <img src="https://www.clipartmax.com/png/full/240-2409409_c-programming-icon-c-programming-language-icon.png" alt="C Logo" class="language__img">
+              </figure>
+              <span class="language__name">C</span>
+            </div>
+            <div class="language">
+              <figure class="language__img--wrapper">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/GNOME_Terminal_icon_2019.svg/1024px-GNOME_Terminal_icon_2019.svg.png" alt="Terminal Logo" class="language__img">
+              </figure>
+              <span class="language__name">Terminal</span>
+            </div>
+            <div class="language">
+              <figure class="language__img--wrapper">
+                <img src="https://cdn.iconscout.com/icon/free/png-256/react-3-1175109.png" alt="React Logo" class="language__img">
+              </figure>
+              <span class="language__name">React</span>
+            </div>
+            <div class="language">
+              <figure class="language__img--wrapper">
+                <img src="https://cdn.freebiesupply.com/logos/large/2x/python-5-logo-png-transparent.png" alt="Python Logo" class="language__img">
+              </figure>
+              <span class="language__name">Python</span>
+            </div>
+           
+            <div class="language">
+              <figure class="language__img--wrapper">
+                <img src="https://cdn.freebiesupply.com/logos/thumbs/2x/figma-1-logo.png" alt="Figma Logo" class="language__img">
+              </figure>
+              <span class="language__name">Figma</span>
+            </div>
+          </div>
+        </div>
+        <div id="quotes" class="quotes">
+          <blockquote id="quotes__para" class="quotes__para">
+            “Any fool can write code that a computer can understand. Good programmers write code that humans can understand.”
+          </blockquote>
+          <!-- <cite id="quotes__src" class="quotes__src">
+            - Martin Fowler
+          </cite> -->
+          <button id="quotes__btn" class="quotes__btn">
+            NEW QUOTE
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <img src="./Assets/layered-waves-2-flipped.svg" alt="waves" class="waves">
+
+  <section id="projects-section">
+    <div class="container">
+      <div class="row">
+        <h2 class="projects__title">Here are some of my upcoming <span class="blue">projects</span></h2>
+        <div id="alert__modal" class="alert__modal">
+          <h1 class="alert__modal--title">OOPS!</h1>
+          <p class="alert__modal--para">The project you're trying to access is currently under development. <span class="blue">Please try again later or contact <a class="support" href="mailto:qadirk2003@gmail.com">qadirk2003@gmail.com</a></span></p>
+          <ul class="alert__modal--btns">
+            <li class="alert__modal--btn--wrapper">
+              <button id="close__btn" class="alert__modal--btn">close</button>
+            </li>
+            <li class="alert__modal--btn--wrapper">
+              <a href="" id="retry__btn" class="alert__modal--btn alert__modal--btn--special">try again</a>
+            </li>
+          </ul>
+        </div>
+        <ul class="honeycomb">
+          <li class="honeycomb-cell">
+            <img class="honeycomb-cell_img" src="./Assets/ProjectOneJPG-min.jpg">
+            <div class="honeycomb-cell_title">Consultancy</div>
+            <div class="project__description">
+              <h4 class="project__description--title">BLOCKCHAIN CONSULTING</h4>
+              <h5 class="project__description--sub-title"></h5>
+              <p class="project__description--para">
+                How blockchain technology can benefit your enterprise solution and bring trust and transparency to the system.
+              </p>
+              <div class="project__description--links">
+                <a href="#" target="_blank" class="project__description--link">
+                  <i class="fab fa-github"></i>
+                </a>
+                <a href="#" class="project__description--link" target="_blank">
+                  <i class="fas fa-link"></i>
+                </a>
+              </div>
+            </div>
+        </li>
+        <li class="honeycomb-cell">
+            <img class="honeycomb-cell_img" src="./Assets/ProjectTwoJPG-min.jpg">
+            <div class="honeycomb-cell_title">WEB 3</div>
+            <div class="project__description project__description--middle">
+              <h4 class="project__description--title">WEB3 DEVELOPMENT</h4>
+              <h5 class="project__description--sub-title"></h5>
+              <p class="project__description--para">
+                Transition from Web 2.0 to Web 3.0 to deliver advanced solutions to your customers.
+              </p>
+              <div class="project__description--links">
+                <a href="#" target="_blank" class="project__description--link">
+                  <i class="fab fa-github"></i>
+                </a>
+                <a href="#" class="project__description--link" target="_blank">
+                  <i class="fas fa-link"></i>
+                </a>
+              </div>
+            </div>
+        </li>
+        <li class="honeycomb-cell">
+          <img class="honeycomb-cell_img" src="./Assets/ProjectThreeJPG-min.jpg">
+            <div class="honeycomb-cell_title project__title--middle">NFT</div>
+            <div class="project__description project__description--middle">
+              <h4 class="project__description--title">NFT Development</h4>
+              <h5 class="project__description--sub-title"></h5>
+              <p class="project__description--para">
+                Developing cross-chain marketplaces that facilitate the minting of multi-chain compatible NFTs.
+              </p>
+              <div class="project__description--links">
+                <a href="#" target="_blank" class="project__description--link">
+                  <i class="fab fa-github"></i>
+                </a>
+                <a href="#" class="project__description--link" target="_blank">
+                  <i class="fas fa-link"></i>
+                </a>
+              </div>
+            </div>
+        </li>
+       
+        <li class="honeycomb-cell honeycomb_hidden">
+        </li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  
+
+  <div class="wave-wrapper">
+    <img class="waves" src="./Assets/layered-waves-2-success.svg" alt="waves">
+  </div>
+
+  <section id="contact-section" class="white-section-2">
+    <div class="container">
+      <div class="row">
+        <div class="contact__header">
+          <div class="contact__title--wrapper">
+            <div class="contact__centrer"></div>
+            <h2 class="contact__title">Hire <span class="blue">Me</span></h2>
+            <figure class="contact__img--contract--wrapper">
+              <img src="./Assets/contract.svg" alt="Contract" id="contact__img--contract">
+            </figure>
+          </div>
+          <p class="contact__para">
+            Feel free to contact me at any time, through any method below.
+          </p>
+          <div class="contact__block">
+            <figure class="contact__img--contact--wrapper">
+              <img src="./Assets/contact.svg" alt="Contact Me" id="contact__img--contact">
+            </figure>
+            <div class="contact__centrer--two"></div>
+          </div>
+        </div>
+        <div class="contact__methods">
+          <form name="contact" id="contact__form" action="https://formspree.io/f/xeqwqrjb" method="post" data-netlify="true">
+            <div class="form__item">
+              <label class="form__item--label">Name</label>
+              <input class="input" name="name" type="text" required/>
+            </div>
+            <div class="form__item">
+              <label class="form__item--label">Email</label>
+              <input class="input" name="email" type="email" required/>
+            </div>
+            <div class="form__item">
+              <label class="form__item--label">Message</label>
+              <textarea class="input" name="message" type="text" required></textarea>
+            </div>
+            <div class="form__item">
+              <div id="recapthcha" data-netlify-recaptcha="true"></div>
+            </div>
+            <button id="contact__submit" class="form__submit" type="submit" value="send">
+              Send it my way
+            </button>
+          </form>
+          <div class="contact__socials">
+            <div class="contact__links">
+              <h3 class="contact__mail">
+                <a id="contact__mail--anchor" href="mailto:qadirk2003@gmail.com" target="_blank" title="Email">
+                  qadirk2003@gmail.com
+                </a>
+              </h3>
+              <ul class="social__link--list">
+                <li class="social__link">
+                  <a class="social__link--anchor" href="https://twitter.com/qadirkilledar?t=2BwF-DWAEzztMD3KoWsEjg&s=09" target="_blank">
+                    <i class="fab fa-twitter"></i>
+                  </a>
+                </li>
+                
+              </ul>
+            </div>
+            <figure class="contact__img--agreement--wrapper">
+              <img src="./Assets/agreement.svg" alt="Agreement" id="contact__img--agreement">
+            </figure>
+          </div>
+          <svg id="visual" viewBox="0 0 900 600" width="900" height="600" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
+            <g transform="translate(419.5919098635898 346.4461440853622)">
+              <path id="blob-1" d="M4.6 -57.8C9.2 -5.3 18.5 -10.7 81 -10.7C143.5 -10.7 259.2 -5.3 291 18.3C322.7 42 270.5 84 222.9 109.8C175.3 135.7 132.4 145.3 96 137.2C59.7 129 29.8 103 -7.2 115.4C-44.2 127.8 -88.3 178.7 -137.8 194.4C-187.3 210.2 -242.2 190.8 -239.8 152.6C-237.4 114.3 -177.7 57.2 -155.3 12.9C-132.9 -31.3 -147.9 -62.7 -154.5 -108.3C-161.2 -153.9 -159.6 -213.8 -132.5 -253.3C-105.3 -292.8 -52.7 -311.9 -26.3 -266.3C0 -220.7 0 -110.3 4.6 -57.8" fill="#27bbc1"></path>
+            </g>
+            <g class="blobs" transform="translate(500.2373891646196 256.03556354588545)">
+              <path id="blob-2" d="M67.4 -98.5C107.1 -93.8 172.6 -115.6 187.4 -103.6C202.1 -91.7 166.1 -45.8 161.4 -2.7C156.8 40.5 183.6 81 193.2 135.1C202.8 189.3 195.1 257 160.1 262.4C125 267.8 62.5 210.9 3.3 205.3C-56 199.7 -112 245.3 -112 219.7C-112 194 -56 97 -89 48.5C-122 0 -244 0 -282.7 -22.3C-321.4 -44.7 -276.7 -89.3 -233.5 -120.1C-190.2 -150.8 -148.4 -167.6 -109.7 -173C-71 -178.3 -35.5 -172.2 -10.8 -153.4C13.8 -134.6 27.7 -103.3 67.4 -98.5" fill="#27bbc1"></path>
+            </g>
+          </svg>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      const tween = KUTE.fromTo(
+        '#blob-1',
+        { path: '#blob-1' },
+        { path: '#blob-2' },
+        { repeat: 999, duration: 3000, yoyo: true }
+      )
+
+      tween.start()
+    </script>
+  </section>
+
+  <img src="./Assets/layered-waves-2-flipped.svg" alt="waves" class="waves">
+
+  <footer>
+    <div class="container footer__container">
+      <span class="copyright">
+        Copyright © 2023 Qadir Killedar
+        <br>
+        All Rights Reserved
+      </span>
+   
+      <figure class="footer__img--wrapper">
+        <img id="footer__img" src="./Assets/code-thinking.svg" alt="Code Thinking">
+      </figure>
+  </div>
+  </footer>
+  
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+  <script src="particles.js"></script>
+</body>
+</html>
