@@ -2,18 +2,6 @@
 
 Portfolio & First Officially Hosted One
 
----
----
-
-## Overview
-### Link
-
----
-
-### Dependencies
-
-
----
-
 ## Licence
-Copyright © 2022, Qadir Killedar. All Rights Reserved
+
+Copyright © 2025, Qadir Killedar. All Rights Reserved
